@@ -1,25 +1,25 @@
 #!/bin/bash
 
 echo "enter number 1:"
-read good
+read num1
 echo "enter number 2:"
-read bad
+read num2
 echo "enter number 3:"
-read hai
+read num3
 echo "enter number 4:"
-read toy
+read num4
 
-if [ $good -gt $bad -a $good -gt $hai -a $good -gt $toy ]
+if [ $num1 -gt $num2 -a $num1 -gt $num3 -a $num1 -gt $num4 ]
 then
-echo "number 1 is greater"
-elif [ $bad -gt $hai -a $bad -gt $toy ]
+echo "number 1 is greater:$num1"
+elif [ $num2 -gt $num3 -a $num2 -gt $num4 ]
 then 
-echo "number 2 is greter"
-elif [ $hai -gt $toy ]
+echo "number 2 is greter:$num2"
+elif [ $num3 -gt $num4 ]
 then
-echo "number 3 is greter"
+echo "number 3 is greter:$num3"
 else
-echo "number 4 is greter"
+echo "number 4 is greter:$num4"
 fi
 
 

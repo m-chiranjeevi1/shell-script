@@ -5,8 +5,11 @@ echo $name
 
 
 echo "enter name"
-read number
-echo "$number is a pandhi"
+read name
+echo "$name is a pandhi"
 
 
 
+echo "enter second name"
+read name
+echo "$name is a second name"

@@ -17,9 +17,21 @@ do
 echo "numbers are $i"
 done
 
-for ((i=0;i<10;i++))
+
+
+
+
+for (( i=0; i<=5; i++ ))
 do
-echo "number are $i"
+   echo "Element $i"
+done
+
+
+
+
+for (( a=0; a<10; a++ ))
+do
+ echo "number are $a"
 done
 
 name2="chiru laxmi" 

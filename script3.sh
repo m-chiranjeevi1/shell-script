@@ -5,12 +5,15 @@ echo "enter ssc marks:"
 read ssc
 echo "enter inter marks:"
 read inter
-#if [ $ssc -gt 70 -a $inter -gt 70 ]
-#then
-#echo "you qualified"
-#else
-#echo "you not qualified"
-#fi
+if [ $ssc -gt 70 -a $inter -gt 70 ]
+then
+echo "you qualified"
+else
+echo "you not qualified"
+fi
+
+
+
 addition=$(($ssc+$inter))
 subtraction=$(($ssc-$inter))
 multiply=$(($ssc*$inter))
