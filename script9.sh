@@ -18,13 +18,17 @@ echo "numbers are $i"
 done
 
 
-
-
-
-for (( i=0; i<=5; i++ ))
+for i in 1 2 3 4 5
 do
-   echo "Element $i"
+echo "number are $i"
 done
+
+name1={1..10..2}
+for i in $name1
+do 
+echo "numbers are $i"
+done
+
 
 
 
